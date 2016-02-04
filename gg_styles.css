@@ -1,0 +1,103 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+  min-height: 4000px;
+
+}
+
+h1 {
+  color: white;
+  font-size: 300%;
+
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 16em;
+  margin-top: -2.5em;
+  color: white;
+  font-size: 1.8em;
+  text-align: right;
+  list-style-type:none;
+}
+
+
+html {
+  background: url("assets/background_long_final.png") no-repeat top center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div#soft_developer {
+    color: white;
+    position: absolute;
+    top: 1020px;
+    font-size: 1.8em
+}
+
+div#video {
+    color: white;
+    position: absolute;
+    top: 2040px;
+    font-size: 1.8em
+}
+
+div#contact {
+    color: white;
+    position: absolute;
+    top: 3120px;
+    font-size: 1.8em
+}
+
+div#quote {
+    color: white;
+    position: absolute;
+    /*text-align:center;*/
+    font: "Zapfino";
+    font-size: 1.5em;
+}
+
+a:link    {
+  color:white;
+  background-color:transparent;
+  text-decoration:none
+}
+
+a:visited {
+  color:white;
+  background-color:transparent;
+  text-decoration:none
+}
+
+a:hover {
+  color:white;
+  background-color:#373737;
+  text-decoration:none
+}
+
+a:active  {
+  color:grey;
+  background-color:transparent;
+  text-decoration:none
+}
